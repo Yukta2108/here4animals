@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    
+}
+#loader{
+    width: 100%;
+    height: 100vh;
+    background: rgb(6, 6, 6)
+    url(image/Earth\ animated.gif) no-repeat center;
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+}
+
+.nav{
+    height: 40px;
+    width: 100%;
+    font-size: 25px;
+   float: right;
+    top: 0;
+    justify-content: space-between;
+    background-color: rgb(153, 195, 231);
+}
+.nav ul li{
+     list-style: none;
+     float:right;
+    padding: 5px;
+
+}
+
+.nav li:hover{
+    background-color: rgb(84, 138, 232); 
+}
+
+.head{
+    height: 1000px;
+    width: 100%;
+    background-color: black;
+}
+#headhr{
+    width: 10%;
+    margin-left: 45%;
+    margin-top: 5px;
+border: 4px solid rgb(30, 109, 170);
+}
+.divs{
+    padding-top: 10px;
+}
+
+
+.video{
+    position: relative;
+    height: 800px;
+    width: 100%;
+    top: -75px ;
+
+}
+#vid{
+    margin-top: 0;
+    height:1000px ;
+    width: 100%;
+   
+}
+.div5{
+    height: 800px;
+    width: 100%;
+    background-image: url(image/sea-2052650_1280.jpg);
+    background-size: cover;
+   
+}
+#ocean{
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+   
+  
+}
+.ocean1{
+    height: 300px;
+    width: 430px;
+    float: left;
+    margin-left: 5%;
+    background-image: url(image/shark.jpg);
+    background-size: cover;
+    margin-top: 5%;
+   
+}
+.ocean2{
+    height: 300px;
+    width: 430px;
+    float: left;
+    margin-left: 3%;
+    background-image: url(image/fishes.jpg);
+    background-size: cover;
+    margin-top: 5%;
+}
+.ocean3{
+    height: 300px;
+    width: 430px;
+    float: left; 
+    margin-left: 3%;
+    background-image: url(image/jellyfish.jpg);
+    background-size: cover;
+    margin-top: 5%;
+    
+}
+.foot{
+    height: 1700px;
+    width: 100%;
+   background-repeat: no-repeat;
+   background-size: cover;
+    background-image: url(image/leopard.jpg);
+   background-attachment: fixed;
+
+}
+.foot1{
+    height:1625px ;
+    width: 25%;
+    background-color: rgba(12, 12, 12, 0.5);
+    float: right;
+}
+.foota{
+    height: 250px;
+    width: 300px;
+    background-color: black;
+    
+    margin-right: 10px;
+    float: right;
+    margin-left: 50%;
+    
+    
+}
+.footb{
+    height: 250px;
+    width: 300px;
+    background-color: black;
+    
+    margin-right: 10px;
+    float: right;
+    margin-left: 50%;
+    margin-top: 5px;
+}
+.footc{
+    height: 250px;
+    width: 300px;
+    background-color: black;
+   
+    margin-right: 10px;
+    float: right;
+    margin-left: 50%;
+    margin-top: 5px;
+}
+.footd{
+    height: 250px;
+    width: 300px;
+    background-color: black;
+   
+    margin-right: 10px;
+    float: right;
+    margin-left: 50%;
+    margin-top: 5px;
+}
+.foote{
+    height: 250px;
+    width: 300px;
+    background-color: black;
+   
+    margin-right: 10px;
+    float: right;
+    margin-left: 50%;
+    margin-top: 5px;
+}
+.footf{
+    height: 250px;
+    width: 300px;
+    background-color: black;
+    margin-right: 10px;
+    float: right;
+    margin-left: 50%;
+    margin-top: 5px;
+}
+.footer{
+    height: 1630px;
+    width: 100%;
+    background-color: aqua;
+    background-image: url(image/dog-\ blackwhite.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.dog{
+    height: 1550px;
+    width: 25%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.dog1{
+    height: 250px;
+    width: 300px;
+    background-color: white;
+   
+    margin-left: 6%;
+    margin-top: 5px;
+    
+}
+
+#hov:hover{
+    background-color: rgb(191, 224, 246);
+}
+.dog2{
+    height: 250px;
+    width: 300px;
+    background-color:white;
+   
+    margin-left: 6%;
+    margin-top: 5px;
+}
+.dog3{
+    height: 250px;
+    width: 300px;
+    background-color:white;
+    
+    margin-left: 6%;
+    margin-top: 5px;
+}
+.dog4{
+    height: 250px;
+    width: 300px;
+    background-color: white;
+    margin-left: 6%;
+    margin-top: 5px;
+}
+.dog5{
+    height: 250px;
+    width: 300px;
+    background-color: white;
+    margin-left: 6%;
+    margin-top: 5px;
+}
+.dog6{
+    height: 250px;
+    width: 300px;
+    background-color: white;
+    margin-left: 6%;
+    margin-top: 5px;
+   
+}
+.cats{
+    height: 1620px;
+    width: 100%;
+    background-color: rgb(6, 130, 225);
+    background-image: url(image/cute\ cat.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.catQ{
+    height: 1545px;
+    width: 25%;
+    background-color: rgba(12, 12, 12, 0.5);
+    float: right;
+}
+.cat1{
+    height: 250px;
+    width: 300px;
+    background-color: rgb(96, 146, 246);
+    margin-left: 8%;
+    border: 1px solid white;
+    margin-top: 5px;
+}
+.cat2{
+    height: 250px;
+    width: 300px;
+    background-color: rgb(96, 146, 246);
+    margin-left: 8%;
+    border: 1px solid white;
+    margin-top: 5px;
+}
+.cat3{
+    height: 250px;
+    width: 300px;
+    background-color: rgb(96, 146, 246);
+    margin-left: 8%;
+    border: 1px solid white;
+    margin-top: 5px;
+}
+.cat4{
+    height: 250px;
+    width: 300px;
+    background-color: rgb(96, 146, 246);
+    margin-left: 8%;
+    border: 1px solid white;
+    margin-top: 5px;
+}
+.cat5{
+    height: 250px;
+    width: 300px;
+    background-color: rgb(96, 146, 246);
+    margin-left: 8%;
+    border: 1px solid white;
+    margin-top: 5px;
+}
+.cat6{
+    height: 250px;
+    width: 300px;
+    background-color: rgb(96, 146, 246);
+    margin-left: 8%;
+    border: 1px solid white;
+    margin-top: 5px;
+}
+.life{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(94, 189, 240);
+}
+.footer1{
+    height: 400px;
+    width: 100%;
+   
+    background-image: url(image/butterfly.jpg) ;
+    background-size: cover;
+}
+.buttn{
+    height: 60px;
+    width: 100px;
+    margin-top: 2%;
+    margin-left: 45%;
+    padding: 5px;
+}
+button:hover{
+    background-color: yellowgreen;
+}
+
+.text{
+    top: 0;
+    left: 0;
+     height: 200px;
+    width: 800px;
+    
+  margin-top: 10%;
+  margin-left: 25%;
+   text-align: center;
+  color: white;
+  position: absolute;
+  padding: 5px;
+}
+.social{
+    height: 450px;
+    width: 100%;
+    background-color: rgb(3, 3, 3);
+}
+.social1{
+    height: 400px;
+    width: 250px;
+   color: white;
+    float: left;
+    margin-left: 17%;
+    margin-top: 3%;
+}
+.social2{
+    height: 400px;
+    width: 250px;
+    float: left;
+    color: white;
+    margin-left: 2%;
+    margin-top: 3%;
+    
+}
+.social3{
+    height: 400px;
+    width: 250px;
+    float: left;
+   color: white;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+.social4{
+    height: 200px;
+    width: 250px;
+    color: white;
+    float: left;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+.lastfoot{
+    width: 100%;
+    height: 90px;
+    background-color: rgb(3, 3, 3);
+}
+.imagefoot{
+    height: 90px;
+    width: 170px;
+    background-color: antiquewhite;
+    margin-left: 15%;
+    float: left;
+}
+.copywrite{
+    height: 40px;
+    width: 60%;
+   color: white;
+    float: left;
+    margin-top: 2.2%;
+    
+    
+}
+#foothr{
+    height: 1px;
+    
+    clear: both;
+}
